@@ -1,0 +1,354 @@
+{
+    "Birds, Hyena, Elephant.wav": {
+        "channels": 1,
+        "duration": 57.527125,
+        "name": "Birds, Hyena, Elephant.wav",
+        "path_name": "./assets/Birds, Hyena, Elephant.wav",
+        "samplerate": 8000,
+        "samples": 460217
+    },
+    "Chimpanzee.wav": {
+        "channels": 1,
+        "duration": 7.809125,
+        "name": "Chimpanzee.wav",
+        "path_name": "./assets/Chimpanzee.wav",
+        "samplerate": 8000,
+        "samples": 62473
+    },
+    "Crickets, Frogs.wav": {
+        "channels": 1,
+        "duration": 24.59875,
+        "name": "Crickets, Frogs.wav",
+        "path_name": "./assets/Crickets, Frogs.wav",
+        "samplerate": 8000,
+        "samples": 196790
+    },
+    "Electronic_Bubbles.aif": {
+        "channels": 2,
+        "duration": 240.0,
+        "name": "Electronic_Bubbles.aif",
+        "path_name": "./assets/Electronic_Bubbles.aif",
+        "samplerate": 44100,
+        "samples": 10584000
+    },
+    "Fire, Speech.wav": {
+        "channels": 1,
+        "duration": 8.9805,
+        "name": "Fire, Speech.wav",
+        "path_name": "./assets/Fire, Speech.wav",
+        "samplerate": 8000,
+        "samples": 71844
+    },
+    "Footsteps, Heartbeat, Laughter.wav": {
+        "channels": 1,
+        "duration": 30.4555,
+        "name": "Footsteps, Heartbeat, Laughter.wav",
+        "path_name": "./assets/Footsteps, Heartbeat, Laughter.wav",
+        "samplerate": 8000,
+        "samples": 243644
+    },
+    "Herding Sheep, Blacksmith, Sawing.wav": {
+        "channels": 1,
+        "duration": 56.375,
+        "name": "Herding Sheep, Blacksmith, Sawing.wav",
+        "path_name": "./assets/Herding Sheep, Blacksmith, Sawing.wav",
+        "samplerate": 8000,
+        "samples": 451000
+    },
+    "Horse and Cart.wav": {
+        "channels": 1,
+        "duration": 20.25,
+        "name": "Horse and Cart.wav",
+        "path_name": "./assets/Horse and Cart.wav",
+        "samplerate": 8000,
+        "samples": 162000
+    },
+    "Kiss, Mother and Child.wav": {
+        "channels": 1,
+        "duration": 24.76475,
+        "name": "Kiss, Mother and Child.wav",
+        "path_name": "./assets/Kiss, Mother and Child.wav",
+        "samplerate": 8000,
+        "samples": 198118
+    },
+    "Life Signs, Pulsar.wav": {
+        "channels": 1,
+        "duration": 51.03,
+        "name": "Life Signs, Pulsar.wav",
+        "path_name": "./assets/Life Signs, Pulsar.wav",
+        "samplerate": 8000,
+        "samples": 408240
+    },
+    "Morse Code, Ships.wav": {
+        "channels": 1,
+        "duration": 30.75,
+        "name": "Morse Code, Ships.wav",
+        "path_name": "./assets/Morse Code, Ships.wav",
+        "samplerate": 8000,
+        "samples": 246000
+    },
+    "Mud Pots.wav": {
+        "channels": 1,
+        "duration": 6.103875,
+        "name": "Mud Pots.wav",
+        "path_name": "./assets/Mud Pots.wav",
+        "samplerate": 8000,
+        "samples": 48831
+    },
+    "Music of the Spheres.wav": {
+        "channels": 1,
+        "duration": 37.375,
+        "name": "Music of the Spheres.wav",
+        "path_name": "./assets/Music of the Spheres.wav",
+        "samplerate": 8000,
+        "samples": 299000
+    },
+    "SuperCollider_Tweet_BP_Chimes.aif": {
+        "channels": 2,
+        "duration": 51.53687074829932,
+        "name": "SuperCollider_Tweet_BP_Chimes.aif",
+        "path_name": "./assets/SuperCollider_Tweet_BP_Chimes.aif",
+        "samplerate": 44100,
+        "samples": 2272776
+    },
+    "Tame Dog.wav": {
+        "channels": 1,
+        "duration": 4.625,
+        "name": "Tame Dog.wav",
+        "path_name": "./assets/Tame Dog.wav",
+        "samplerate": 8000,
+        "samples": 37000
+    },
+    "The First Tools.wav": {
+        "channels": 1,
+        "duration": 14.577,
+        "name": "The First Tools.wav",
+        "path_name": "./assets/The First Tools.wav",
+        "samplerate": 8000,
+        "samples": 116616
+    },
+    "Tractor, Bus, Auto.wav": {
+        "channels": 1,
+        "duration": 39.875,
+        "name": "Tractor, Bus, Auto.wav",
+        "path_name": "./assets/Tractor, Bus, Auto.wav",
+        "samplerate": 8000,
+        "samples": 319000
+    },
+    "Tractor, Riveter.wav": {
+        "channels": 1,
+        "duration": 13.378375,
+        "name": "Tractor, Riveter.wav",
+        "path_name": "./assets/Tractor, Riveter.wav",
+        "samplerate": 8000,
+        "samples": 107027
+    },
+    "Train.wav": {
+        "channels": 1,
+        "duration": 21.375,
+        "name": "Train.wav",
+        "path_name": "./assets/Train.wav",
+        "samplerate": 8000,
+        "samples": 171000
+    },
+    "Wild Dog.wav": {
+        "channels": 1,
+        "duration": 25.50975,
+        "name": "Wild Dog.wav",
+        "path_name": "./assets/Wild Dog.wav",
+        "samplerate": 8000,
+        "samples": 204078
+    },
+    "Wind, Rain, Surf.wav": {
+        "channels": 1,
+        "duration": 97.727625,
+        "name": "Wind, Rain, Surf.wav",
+        "path_name": "./assets/Wind, Rain, Surf.wav",
+        "samplerate": 8000,
+        "samples": 781821
+    },
+    "alarm_tock_0.aif": {
+        "channels": 1,
+        "duration": 3.014,
+        "name": "alarm_tock_0.aif",
+        "path_name": "./assets/alarm_tock_0.aif",
+        "samplerate": 96000,
+        "samples": 289344
+    },
+    "arcade_ambience_0.aif": {
+        "channels": 1,
+        "duration": 2.8047395833333333,
+        "name": "arcade_ambience_0.aif",
+        "path_name": "./assets/arcade_ambience_0.aif",
+        "samplerate": 96000,
+        "samples": 269255
+    },
+    "divderDroneSH.wav": {
+        "channels": 1,
+        "duration": 65.75891156462585,
+        "name": "divderDroneSH.wav",
+        "path_name": "./assets/divderDroneSH.wav",
+        "samplerate": 44100,
+        "samples": 2899968
+    },
+    "dividerDrone.wav": {
+        "channels": 1,
+        "duration": 30.743219954648527,
+        "name": "dividerDrone.wav",
+        "path_name": "./assets/dividerDrone.wav",
+        "samplerate": 44100,
+        "samples": 1355776
+    },
+    "dividerDroneSequence.wav": {
+        "channels": 1,
+        "duration": 75.55773242630386,
+        "name": "dividerDroneSequence.wav",
+        "path_name": "./assets/dividerDroneSequence.wav",
+        "samplerate": 44100,
+        "samples": 3332096
+    },
+    "dividerDroneWithStereoVoiceSequence.wav": {
+        "channels": 2,
+        "duration": 81.17696145124717,
+        "name": "dividerDroneWithStereoVoiceSequence.wav",
+        "path_name": "./assets/dividerDroneWithStereoVoiceSequence.wav",
+        "samplerate": 44100,
+        "samples": 3579904
+    },
+    "dividerDroneWithVoiceSequence1.wav": {
+        "channels": 2,
+        "duration": 67.0592290249433,
+        "name": "dividerDroneWithVoiceSequence1.wav",
+        "path_name": "./assets/dividerDroneWithVoiceSequence1.wav",
+        "samplerate": 44100,
+        "samples": 2957312
+    },
+    "droneStereo.wav": {
+        "channels": 2,
+        "duration": 96.72533333333334,
+        "name": "droneStereo.wav",
+        "path_name": "./assets/droneStereo.wav",
+        "samplerate": 96000,
+        "samples": 9285632
+    },
+    "entropy_in_reverse.aif": {
+        "channels": 1,
+        "duration": 77.9249433106576,
+        "name": "entropy_in_reverse.aif",
+        "path_name": "./assets/entropy_in_reverse.aif",
+        "samplerate": 44100,
+        "samples": 3436490
+    },
+    "faux_modem_0.aif": {
+        "channels": 1,
+        "duration": 16.0,
+        "name": "faux_modem_0.aif",
+        "path_name": "./assets/faux_modem_0.aif",
+        "samplerate": 44100,
+        "samples": 705600
+    },
+    "faux_modem_1.aif": {
+        "channels": 1,
+        "duration": 16.0,
+        "name": "faux_modem_1.aif",
+        "path_name": "./assets/faux_modem_1.aif",
+        "samplerate": 44100,
+        "samples": 705600
+    },
+    "faux_modem_3.aif": {
+        "channels": 1,
+        "duration": 16.0,
+        "name": "faux_modem_3.aif",
+        "path_name": "./assets/faux_modem_3.aif",
+        "samplerate": 44100,
+        "samples": 705600
+    },
+    "faux_modem_4.aif": {
+        "channels": 1,
+        "duration": 16.0,
+        "name": "faux_modem_4.aif",
+        "path_name": "./assets/faux_modem_4.aif",
+        "samplerate": 44100,
+        "samples": 705600
+    },
+    "fragments_excerpt.aiff": {
+        "channels": 2,
+        "duration": 61.67750566893424,
+        "name": "fragments_excerpt.aiff",
+        "path_name": "./assets/fragments_excerpt.aiff",
+        "samplerate": 44100,
+        "samples": 2719978
+    },
+    "karplusDrone.aiff": {
+        "channels": 1,
+        "duration": 120.61866666666667,
+        "name": "karplusDrone.aiff",
+        "path_name": "./assets/karplusDrone.aiff",
+        "samplerate": 96000,
+        "samples": 11579392
+    },
+    "karplusGroove.aiff": {
+        "channels": 1,
+        "duration": 93.568,
+        "name": "karplusGroove.aiff",
+        "path_name": "./assets/karplusGroove.aiff",
+        "samplerate": 96000,
+        "samples": 8982528
+    },
+    "karplusPlucks.wav": {
+        "channels": 2,
+        "duration": 27.17866666666667,
+        "name": "karplusPlucks.wav",
+        "path_name": "./assets/karplusPlucks.wav",
+        "samplerate": 96000,
+        "samples": 2609152
+    },
+    "message_from_another_planet.aif": {
+        "channels": 2,
+        "duration": 256.0,
+        "name": "message_from_another_planet.aif",
+        "path_name": "./assets/message_from_another_planet.aif",
+        "samplerate": 44100,
+        "samples": 11289600
+    },
+    "morse_sagan.aif": {
+        "channels": 1,
+        "duration": 43.56,
+        "name": "morse_sagan.aif",
+        "path_name": "./assets/morse_sagan.aif",
+        "samplerate": 44100,
+        "samples": 1920996
+    },
+    "poppyRhythym.wav": {
+        "channels": 2,
+        "duration": 66.87346938775511,
+        "name": "poppyRhythym.wav",
+        "path_name": "./assets/poppyRhythym.wav",
+        "samplerate": 44100,
+        "samples": 2949120
+    },
+    "recognizer.aif": {
+        "channels": 1,
+        "duration": 137.14285714285714,
+        "name": "recognizer.aif",
+        "path_name": "./assets/recognizer.aif",
+        "samplerate": 44100,
+        "samples": 6048000
+    },
+    "sine_pops.aif": {
+        "channels": 2,
+        "duration": 19.997551020408164,
+        "name": "sine_pops.aif",
+        "path_name": "./assets/sine_pops.aif",
+        "samplerate": 44100,
+        "samples": 881892
+    },
+    "thing_0.aiff": {
+        "channels": 2,
+        "duration": 76.53296875,
+        "name": "thing_0.aiff",
+        "path_name": "./assets/thing_0.aiff",
+        "samplerate": 96000,
+        "samples": 7347165
+    }
+}
