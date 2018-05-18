@@ -27,22 +27,24 @@ def pf_filename(f):
     return '"' + f + '"'
 
 def sampler(sf, start_time, dur, mix):
+    amp = sf['amp']
+
     if sf['channels'] == 1:
-        mono_player(sf['path_name'], start_time, dur, mix)
+        mono_player(sf['path_name'], start_time, dur, amp, mix)
     elif sf['channels'] == 2:
-        stereo_player(sf['path_name'], start_time, dur, mix)
+        stereo_player(sf['path_name'], start_time, dur, amp, mix)
     else:
         print("WARNING: channels for sound file is not 1 or 2")
 
-def mono_player(filename, start_time, dur, mix):
+def mono_player(filename, start_time, dur, amp, mix):
     '''Plays a mono sample'''
 
-    score.i(instr_mono_player, 0, dur, pf_filename(filename), start_time, mix)
+    score.i(instr_mono_player, 0, dur, amp, pf_filename(filename), start_time, mix)
 
-def stereo_player(filename, start_time, dur, mix):
+def stereo_player(filename, start_time, dur, amp, mix):
     '''Plays a stereo sample'''
 
-    score.i(instr_stereo_player, 0, dur, pf_filename(filename), start_time, mix)
+    score.i(instr_stereo_player, 0, dur, amp, pf_filename(filename), start_time, mix)
 
 
 def reverb(dur, amp, delay_left, delay_right, room_size, damp):
@@ -91,6 +93,7 @@ L0 = soundfiles.keys()
 L1 = soundfiles.keys()
 shuffle(L0)
 shuffle(L1)
+# L0.insert(0, 'faux_modem_1.aif');
 
 t = 0
 for sf in L0:

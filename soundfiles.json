@@ -1,5 +1,6 @@
 {
     "Birds, Hyena, Elephant.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 57.527125,
         "name": "Birds, Hyena, Elephant.wav",
@@ -8,6 +9,7 @@
         "samples": 460217
     },
     "Chimpanzee.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 7.809125,
         "name": "Chimpanzee.wav",
@@ -16,6 +18,7 @@
         "samples": 62473
     },
     "Crickets, Frogs.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 24.59875,
         "name": "Crickets, Frogs.wav",
@@ -24,6 +27,7 @@
         "samples": 196790
     },
     "Electronic_Bubbles.aif": {
+        "amp": 1,
         "channels": 2,
         "duration": 240.0,
         "name": "Electronic_Bubbles.aif",
@@ -32,6 +36,7 @@
         "samples": 10584000
     },
     "Fire, Speech.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 8.9805,
         "name": "Fire, Speech.wav",
@@ -40,6 +45,7 @@
         "samples": 71844
     },
     "Footsteps, Heartbeat, Laughter.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 30.4555,
         "name": "Footsteps, Heartbeat, Laughter.wav",
@@ -48,6 +54,7 @@
         "samples": 243644
     },
     "Herding Sheep, Blacksmith, Sawing.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 56.375,
         "name": "Herding Sheep, Blacksmith, Sawing.wav",
@@ -56,6 +63,7 @@
         "samples": 451000
     },
     "Horse and Cart.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 20.25,
         "name": "Horse and Cart.wav",
@@ -64,6 +72,7 @@
         "samples": 162000
     },
     "Kiss, Mother and Child.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 24.76475,
         "name": "Kiss, Mother and Child.wav",
@@ -72,6 +81,7 @@
         "samples": 198118
     },
     "Life Signs, Pulsar.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 51.03,
         "name": "Life Signs, Pulsar.wav",
@@ -80,6 +90,7 @@
         "samples": 408240
     },
     "Morse Code, Ships.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 30.75,
         "name": "Morse Code, Ships.wav",
@@ -88,6 +99,7 @@
         "samples": 246000
     },
     "Mud Pots.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 6.103875,
         "name": "Mud Pots.wav",
@@ -96,6 +108,7 @@
         "samples": 48831
     },
     "Music of the Spheres.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 37.375,
         "name": "Music of the Spheres.wav",
@@ -104,6 +117,7 @@
         "samples": 299000
     },
     "SuperCollider_Tweet_BP_Chimes.aif": {
+        "amp": 1,
         "channels": 2,
         "duration": 51.53687074829932,
         "name": "SuperCollider_Tweet_BP_Chimes.aif",
@@ -112,6 +126,7 @@
         "samples": 2272776
     },
     "Tame Dog.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 4.625,
         "name": "Tame Dog.wav",
@@ -120,6 +135,7 @@
         "samples": 37000
     },
     "The First Tools.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 14.577,
         "name": "The First Tools.wav",
@@ -128,6 +144,7 @@
         "samples": 116616
     },
     "Tractor, Bus, Auto.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 39.875,
         "name": "Tractor, Bus, Auto.wav",
@@ -136,6 +153,7 @@
         "samples": 319000
     },
     "Tractor, Riveter.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 13.378375,
         "name": "Tractor, Riveter.wav",
@@ -144,6 +162,7 @@
         "samples": 107027
     },
     "Train.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 21.375,
         "name": "Train.wav",
@@ -152,6 +171,7 @@
         "samples": 171000
     },
     "Wild Dog.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 25.50975,
         "name": "Wild Dog.wav",
@@ -160,6 +180,7 @@
         "samples": 204078
     },
     "Wind, Rain, Surf.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 97.727625,
         "name": "Wind, Rain, Surf.wav",
@@ -168,6 +189,7 @@
         "samples": 781821
     },
     "alarm_tock_0.aif": {
+        "amp": 0.2,
         "channels": 1,
         "duration": 3.014,
         "name": "alarm_tock_0.aif",
@@ -176,6 +198,7 @@
         "samples": 289344
     },
     "arcade_ambience_0.aif": {
+        "amp": 1,
         "channels": 1,
         "duration": 2.8047395833333333,
         "name": "arcade_ambience_0.aif",
@@ -184,6 +207,7 @@
         "samples": 269255
     },
     "divderDroneSH.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 65.75891156462585,
         "name": "divderDroneSH.wav",
@@ -192,6 +216,7 @@
         "samples": 2899968
     },
     "dividerDrone.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 30.743219954648527,
         "name": "dividerDrone.wav",
@@ -200,6 +225,7 @@
         "samples": 1355776
     },
     "dividerDroneSequence.wav": {
+        "amp": 1,
         "channels": 1,
         "duration": 75.55773242630386,
         "name": "dividerDroneSequence.wav",
@@ -208,6 +234,7 @@
         "samples": 3332096
     },
     "dividerDroneWithStereoVoiceSequence.wav": {
+        "amp": 1,
         "channels": 2,
         "duration": 81.17696145124717,
         "name": "dividerDroneWithStereoVoiceSequence.wav",
@@ -216,6 +243,7 @@
         "samples": 3579904
     },
     "dividerDroneWithVoiceSequence1.wav": {
+        "amp": 1,
         "channels": 2,
         "duration": 67.0592290249433,
         "name": "dividerDroneWithVoiceSequence1.wav",
@@ -224,6 +252,7 @@
         "samples": 2957312
     },
     "droneStereo.wav": {
+        "amp": 1,
         "channels": 2,
         "duration": 96.72533333333334,
         "name": "droneStereo.wav",
@@ -232,6 +261,7 @@
         "samples": 9285632
     },
     "entropy_in_reverse.aif": {
+        "amp": 0.5,
         "channels": 1,
         "duration": 77.9249433106576,
         "name": "entropy_in_reverse.aif",
@@ -240,6 +270,7 @@
         "samples": 3436490
     },
     "faux_modem_0.aif": {
+        "amp": 0.3,
         "channels": 1,
         "duration": 16.0,
         "name": "faux_modem_0.aif",
@@ -248,6 +279,7 @@
         "samples": 705600
     },
     "faux_modem_1.aif": {
+        "amp": 0.1,
         "channels": 1,
         "duration": 16.0,
         "name": "faux_modem_1.aif",
@@ -256,6 +288,7 @@
         "samples": 705600
     },
     "faux_modem_3.aif": {
+        "amp": 1,
         "channels": 1,
         "duration": 16.0,
         "name": "faux_modem_3.aif",
@@ -264,6 +297,7 @@
         "samples": 705600
     },
     "faux_modem_4.aif": {
+        "amp": 0.5,
         "channels": 1,
         "duration": 16.0,
         "name": "faux_modem_4.aif",
@@ -272,6 +306,7 @@
         "samples": 705600
     },
     "fragments_excerpt.aiff": {
+        "amp": 1,
         "channels": 2,
         "duration": 61.67750566893424,
         "name": "fragments_excerpt.aiff",
@@ -280,6 +315,7 @@
         "samples": 2719978
     },
     "karplusDrone.aiff": {
+        "amp": 1,
         "channels": 1,
         "duration": 120.61866666666667,
         "name": "karplusDrone.aiff",
@@ -288,6 +324,7 @@
         "samples": 11579392
     },
     "karplusGroove.aiff": {
+        "amp": 1,
         "channels": 1,
         "duration": 93.568,
         "name": "karplusGroove.aiff",
@@ -296,6 +333,7 @@
         "samples": 8982528
     },
     "karplusPlucks.wav": {
+        "amp": 1,
         "channels": 2,
         "duration": 27.17866666666667,
         "name": "karplusPlucks.wav",
@@ -304,6 +342,7 @@
         "samples": 2609152
     },
     "message_from_another_planet.aif": {
+        "amp": 1,
         "channels": 2,
         "duration": 256.0,
         "name": "message_from_another_planet.aif",
@@ -312,6 +351,7 @@
         "samples": 11289600
     },
     "morse_sagan.aif": {
+        "amp": 1,
         "channels": 1,
         "duration": 43.56,
         "name": "morse_sagan.aif",
@@ -320,6 +360,7 @@
         "samples": 1920996
     },
     "poppyRhythym.wav": {
+        "amp": 1,
         "channels": 2,
         "duration": 66.87346938775511,
         "name": "poppyRhythym.wav",
@@ -328,6 +369,7 @@
         "samples": 2949120
     },
     "recognizer.aif": {
+        "amp": 1,
         "channels": 1,
         "duration": 137.14285714285714,
         "name": "recognizer.aif",
@@ -336,6 +378,7 @@
         "samples": 6048000
     },
     "sine_pops.aif": {
+        "amp": 1,
         "channels": 2,
         "duration": 19.997551020408164,
         "name": "sine_pops.aif",
@@ -344,6 +387,7 @@
         "samples": 881892
     },
     "thing_0.aiff": {
+        "amp": 1,
         "channels": 2,
         "duration": 76.53296875,
         "name": "thing_0.aiff",

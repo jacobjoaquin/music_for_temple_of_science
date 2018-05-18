@@ -14,9 +14,10 @@ gifadepercent = 0.05
 ; Diskin Mono
 instr 1
   idur = p3
-  SFilename = p4
-  istart_time = p5
-  imix = p6
+  iamp = p4
+  SFilename = p5
+  istart_time = p6
+  imix = p7
 
   cigoto (idur > gifadein + gifadeout), fade
   igoto fadepercent
@@ -32,9 +33,10 @@ fadepercent:
   goto cont
 
 cont:
-  aline linseg 0, ifadein, 1, idur - ifadeout, 0
+  aline linseg 0, ifadein, 1, idur - ifadeout, 1, ifadeout, 0
 
   a0 diskin SFilename, 1, istart_time, 1, 0, 32
+  a0 *= iamp
   a0 = a0 * aline
   outs a0 * imix, a0 * imix
 
@@ -45,9 +47,10 @@ endin
 ; Diskin Stereo player
 instr 2
   idur = p3
-  SFilename = p4
-  istart_time = p5
-  imix = p6
+  iamp = p4
+  SFilename = p5
+  istart_time = p6
+  imix = p7
 
   cigoto (idur > gifadein + gifadeout), fade
   igoto fadepercent
@@ -63,9 +66,11 @@ fadepercent:
   goto cont
 
 cont:
-  aline linseg 0, ifadein, 1, idur - ifadeout, 0
+aline linseg 0, ifadein, 1, idur - ifadeout, 1, ifadeout, 0
 
   a0, a1 diskin SFilename, 1, istart_time, 1, 0, 32
+  a0 *= iamp
+  a1 *= iamp
   a0 = a0 * aline
   a1 = a1 * aline
   outs a0 * imix, a1 * imix
