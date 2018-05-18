@@ -33,7 +33,8 @@ fadepercent:
   goto cont
 
 cont:
-  aline linseg 0, ifadein, 1, idur - ifadeout, 1, ifadeout, 0
+  ;aline linseg 0, ifadein, 1, idur - ifadeout, 1, ifadeout, 0
+  aline linseg 0, ifadein, 1, idur - (ifadeout + ifadein), 0
 
   a0 diskin SFilename, 1, istart_time, 1, 0, 32
   a0 *= iamp
@@ -66,7 +67,8 @@ fadepercent:
   goto cont
 
 cont:
-aline linseg 0, ifadein, 1, idur - ifadeout, 1, ifadeout, 0
+  ;aline linseg 0, ifadein, 1, idur - ifadeout, 1, ifadeout, 0
+  aline linseg 0, ifadein, 1, idur - (ifadeout + ifadein), 0
 
   a0, a1 diskin SFilename, 1, istart_time, 1, 0, 32
   a0 *= iamp

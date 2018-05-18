@@ -117,7 +117,7 @@
         "samples": 299000
     },
     "SuperCollider_Tweet_BP_Chimes.aif": {
-        "amp": 1,
+        "amp": 0.5,
         "channels": 2,
         "duration": 51.53687074829932,
         "name": "SuperCollider_Tweet_BP_Chimes.aif",
@@ -189,7 +189,7 @@
         "samples": 781821
     },
     "alarm_tock_0.aif": {
-        "amp": 0.2,
+        "amp": 0.5,
         "channels": 1,
         "duration": 3.014,
         "name": "alarm_tock_0.aif",
