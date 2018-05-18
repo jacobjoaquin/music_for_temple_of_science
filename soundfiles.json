@@ -189,7 +189,7 @@
         "samples": 781821
     },
     "alarm_tock_0.aif": {
-        "amp": 1,
+        "amp": 0.2,
         "channels": 1,
         "duration": 3.014,
         "name": "alarm_tock_0.aif",
@@ -261,7 +261,7 @@
         "samples": 9285632
     },
     "entropy_in_reverse.aif": {
-        "amp": 1,
+        "amp": 0.5,
         "channels": 1,
         "duration": 77.9249433106576,
         "name": "entropy_in_reverse.aif",
@@ -270,7 +270,7 @@
         "samples": 3436490
     },
     "faux_modem_0.aif": {
-        "amp": 1,
+        "amp": 0.3,
         "channels": 1,
         "duration": 16.0,
         "name": "faux_modem_0.aif",
@@ -279,7 +279,7 @@
         "samples": 705600
     },
     "faux_modem_1.aif": {
-        "amp": 1,
+        "amp": 0.1,
         "channels": 1,
         "duration": 16.0,
         "name": "faux_modem_1.aif",
@@ -297,7 +297,7 @@
         "samples": 705600
     },
     "faux_modem_4.aif": {
-        "amp": 1,
+        "amp": 0.5,
         "channels": 1,
         "duration": 16.0,
         "name": "faux_modem_4.aif",
