@@ -10,6 +10,11 @@ files = os.listdir(file_path)
 data = {}
 file_data = {}
 
+# Default fields
+default_fields = {
+    'amp': 1
+}
+
 # Load existing
 with open(filename) as f:
     data = json.load(f)
@@ -38,11 +43,17 @@ for name in files:
         pass
 
 # Update existing
-for k in file_data.keys():
+for name, fields in file_data.items():
     # Update from file
-    for k2, v in file_data[k].items():
-        data[k][k2] = v
+    for k, v in file_data[name].items():
+        data[name][k] = v
 
-# Save
+# Add default if it doesn't exist in data
+for name, fields in data.items():
+    for k, v in default_fields.items():
+        if k not in fields.keys():
+            data[name][k] = v
+
+# Save file
 with open(filename, 'w') as f:
     json.dump(data, f, indent=4, sort_keys=True)
