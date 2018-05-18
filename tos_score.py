@@ -26,25 +26,25 @@ def print_runtime():
 def pf_filename(f):
     return '"' + f + '"'
 
-def sampler(sf, start_time, dur, mix):
+def sampler(sf, start_time, dur, pch=1, mix=1):
     amp = sf['amp']
 
     if sf['channels'] == 1:
-        mono_player(sf['path_name'], start_time, dur, amp, mix)
+        mono_player(sf['path_name'], start_time, dur, amp, pch=pch, mix=mix)
     elif sf['channels'] == 2:
-        stereo_player(sf['path_name'], start_time, dur, amp, mix)
+        stereo_player(sf['path_name'], start_time, dur, amp, pch=pch, mix=mix)
     else:
         print("WARNING: channels for sound file is not 1 or 2")
 
-def mono_player(filename, start_time, dur, amp, mix):
+def mono_player(filename, start_time, dur, amp=1, pch=1, mix=1):
     '''Plays a mono sample'''
 
-    score.i(instr_mono_player, 0, dur, amp, pf_filename(filename), start_time, mix)
+    score.i(instr_mono_player, 0, dur, amp, pch, pf_filename(filename), start_time, mix)
 
-def stereo_player(filename, start_time, dur, amp, mix):
+def stereo_player(filename, start_time, dur, amp=1, pch=1, mix=1):
     '''Plays a stereo sample'''
 
-    score.i(instr_stereo_player, 0, dur, amp, pf_filename(filename), start_time, mix)
+    score.i(instr_stereo_player, 0, dur, amp, pch, pf_filename(filename), start_time, mix)
 
 
 def reverb(dur, amp, delay_left, delay_right, room_size, damp):
@@ -62,11 +62,11 @@ def random_sampler():
     sampler(sf, start_time, dur, mix)
     return dur
 
-def play_sample(name, mix=1):
+def play_sample(name, pch=1, mix=1):
     sf = soundfiles[name]
     dur = sf['duration']
     start_time = 0
-    sampler(sf, start_time, dur, mix)
+    sampler(sf, start_time, dur, pch=pch, mix=mix)
     return dur
 
 score = PythonScoreBin()
@@ -93,14 +93,13 @@ L0 = soundfiles.keys()
 L1 = soundfiles.keys()
 shuffle(L0)
 shuffle(L1)
-# L0.insert(0, 'faux_modem_1.aif');
 
 t = 0
 for sf in L0:
     with cue(t):
-        t += play_sample(sf, 0.8)
+        t += play_sample(sf, pch=1, mix=0.8)
 
 t = 0
 for sf in L1:
     with cue(t):
-        t += play_sample(sf, 0.25)
+        t += play_sample(sf, pch=-1, mix=0.25)
