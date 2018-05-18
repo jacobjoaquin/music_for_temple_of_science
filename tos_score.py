@@ -69,6 +69,16 @@ def play_sample(name, pch=1, mix=1):
     sampler(sf, start_time, dur, pch=pch, mix=mix)
     return dur
 
+def generate_random_sequence():
+    keys = soundfiles.keys()
+    sequence = []
+    for name in keys:
+        sequence.append([name, 1])
+        sequence.append([name, -1])
+    shuffle(sequence)
+    return sequence
+
+
 score = PythonScoreBin()
 cue = score.cue
 
@@ -88,18 +98,15 @@ info()
 # Begin Score
 reverb(score_length + 4, 2.333, 0.0223, 0.0213, 0.4, 0.3)
 
-# Shuffle two sides
-L0 = soundfiles.keys()
-L1 = soundfiles.keys()
-shuffle(L0)
-shuffle(L1)
+seq0 = generate_random_sequence() + generate_random_sequence()
+seq1 = generate_random_sequence() + generate_random_sequence()
 
 t = 0
-for sf in L0:
+for sf in seq0:
     with cue(t):
-        t += play_sample(sf, pch=1, mix=0.8)
+        t += play_sample(sf[0], pch=sf[1], mix=0.8)
 
 t = 0
-for sf in L1:
+for sf in seq1:
     with cue(t):
-        t += play_sample(sf, pch=-1, mix=0.25)
+        t += play_sample(sf[0], pch=sf[1], mix=0.25)
