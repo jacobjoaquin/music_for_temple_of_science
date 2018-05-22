@@ -5,6 +5,7 @@ import json
 from csd.pysco import PythonScoreBin
 from random import random
 from random import choice
+from random import seed
 from random import shuffle
 from random import uniform
 
@@ -50,9 +51,12 @@ def stereo_player(filename, start_time, dur, amp=1, pch=1, mix=1):
 def reverb(dur, amp, delay_left, delay_right, room_size, damp):
     '''Interface for Csound orchesta reverb instrument.'''
 
-    # score.i(instr_reverb, 0, dur, amp, delay_left, delay_right, room_size, damp)
-    # Swap left and right
-    score.i(instr_reverb, 0, dur, amp, delay_right, delay_left, room_size, damp)
+    score.i(instr_reverb, 0, dur, amp, delay_left, delay_right, room_size, damp)
+
+def reverb_mono(dur, amp, delay_left, delay_right, room_size, damp):
+    '''Interface for Csound orchesta reverb instrument.'''
+
+    score.i(instr_reverb_mono, 0, dur, amp, delay_left, delay_right, room_size, damp)
 
 def random_sampler():
     sf = soundfiles[choice(soundfiles.keys())]
@@ -86,6 +90,7 @@ cue = score.cue
 instr_mono_player = 1
 instr_stereo_player = 2
 instr_reverb = 100
+instr_reverb_mono = 101
 
 # Load soundfile data
 json_soundfiles = open('soundfiles.json')
@@ -96,7 +101,10 @@ score_length = calculate_runtime()
 info()
 
 # Begin Score
-reverb(score_length + 4, 2.333, 0.0223, 0.0213, 0.4, 0.3)
+seed(0)
+
+reverb(score_length + 4, 0.75, 0.0223, 0.0213, 0.705, 0.695)
+reverb_mono(score_length + 4, 0.75, 0.0423, 0.0413, 0.705, 0.695)
 
 seq0 = generate_random_sequence() + generate_random_sequence()
 seq1 = generate_random_sequence() + generate_random_sequence()
@@ -104,7 +112,7 @@ seq1 = generate_random_sequence() + generate_random_sequence()
 t = 0
 for sf in seq0:
     with cue(t):
-        t += play_sample(sf[0], pch=sf[1], mix=0.8)
+        t += play_sample(sf[0], pch=sf[1], mix=0.65)
 
 t = 0
 for sf in seq1:

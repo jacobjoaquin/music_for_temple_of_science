@@ -342,7 +342,7 @@
         "samples": 2609152
     },
     "message_from_another_planet.aif": {
-        "amp": 1,
+        "amp": 0.25,
         "channels": 2,
         "duration": 256.0,
         "name": "message_from_another_planet.aif",
